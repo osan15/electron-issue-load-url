@@ -1,0 +1,14 @@
+{
+    "appId": "com.electron.issue",
+    "directories": {
+        "output": "build/"
+    },
+    "files": [
+        "package.json",
+        "app/**/*",
+        "node_modules"
+    ],
+    "win": {
+        "target": "portable"
+    }
+}
